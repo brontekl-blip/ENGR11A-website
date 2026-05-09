@@ -31,7 +31,7 @@
 
 **Mechanical Assembly**
 <p>
-  PS - The place in which you place your jumper wires to the breadboards, for example, for hall sensors, is based on how you coded into the Arduino. In this case, or if you are using the original code, the hall sensors go to pin number 2, 3, 4, 5, the buzzer to pin number 6 and then lead to 13. For an easier time, try to color coordinate. For example, as you will see in my design, I try to use black or darker jumper wires for ground, a lighter color such as yellow for power, and then medium colors such as blue and purple for signals.
+  PS - The place in which you place your jumper wires to the breadboards, for example, for hall sensors, is based on how you coded into the Arduino. In this case, or if you are using the <a href="https://docs.google.com/document/d/1jkpZ4H0KWvsoafJ_Ff6-uf_Do_P35tXl_jxYF_B4JnI/edit?tab=t.nf3fixb14pqj">original code</a>, the hall sensors go to pin number 2, 3, 4, 5, the buzzer to pin number 6 and then lead to 13. For an easier time, try to color coordinate. For example, as you will see in my design, I try to use black or darker jumper wires for ground, a lighter color such as yellow for power, and then medium colors such as blue and purple for signals.
 </p>
 1. For every hall sensor, using the male-to-female jumper wires, connect them to the hall sensor and buzzer, remembering which colors of wires go where (look in the picture for reference) <img src="./rep image 1.jpg">
 2. Now connect the blue jumper wire (or whatever color you used) to the corresponding pin numbers (2, 3, 4, 5) and the purple jumper wire (buzzer) to pin number 6. <img src="./rep image 2.jpg">
