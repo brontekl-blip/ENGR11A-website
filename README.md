@@ -1,5 +1,12 @@
 **Automatic Medicine Dispenser**
-<img src="./rep image 18.jpg">
+
+<p>
+  <img src="./rep image 18.jpg">
+</p> 
+<p>
+  Currently, older adults with dementia or general memory issues struggle to remember to take their medications and manage multiple medications. This means that these individuals may not take their medications at the correct times or at all and might need help from a caretaker. We want these individuals to be able to manage their medications independently and have confidence in themselves. Our project is a medicine dispenser that can be preloaded for a full week, including separate morning and night compartments, for a total of 14 functional compartments and 1 refill position. 
+</p>
+
 **Bill of Materials**
 - 2 9V batteries  
 - A small breadboard (you can use basically any breadboard as long as it accommodates the necessary design size) 
@@ -46,17 +53,17 @@
 18. To start, get the code file from above, then plug the USB printer cable into the Arduino board and back into your computer (based on the circuit board you are using, you might need a different cable to connect your circuit board to your computer).
 
 **3D Print and Assembly**
-1. Print Settings: Final Cycle Outer Box should be printed on its front face, with automatic paint-on supports.
+1. Print Settings: Final Cycle Outer Box should be printed on its front face, with automatic paint-on supports. <img src="./rep image 20.jpg">
 2. Print the <a href="./Final Cycle Outer Box.stl" download>Final Cycle Outer Box</a>
 3. Print the <a href="./Final Cycle Wheel.stl" download>Final Cycle Outer Box</a>
 4. Print the <a href="./Final Cycle Medicine Tray.stl" download>Final Cycle Outer Box</a>
-5. Put magnets in the designated holes, using a mallet to fully insert. Ensure that each magnet is facing the correct way before fully inserting, preferably using the hall effect sensor to confirm it is activated. If a magnet is placed backwards, carefully use a heatgun to soften the surrounding plastic, then use a stronger magnet to pull it out of the hole. After this, you will most likely need to super glue the magnet back into place, since the hole will no longer be a snug fit. If the magnets are too small, you can super glue them into place.
+5. Put magnets in the designated holes, using a mallet to fully insert. Ensure that each magnet is facing the correct way before fully inserting, preferably using the hall effect sensor to confirm it is activated. If a magnet is placed backwards, carefully use a heatgun to soften the surrounding plastic, then use a stronger magnet to pull it out of the hole. After this, you will most likely need to super glue the magnet back into place, since the hole will no longer be a snug fit. If the magnets are too small, you can super glue them into place. <img src="./re image 19.img">
 6. Trim down the motor shaft so the wheel does not excessively protrude out the front of the outer box.
 7. Insert the motor shaft through the back of the outer box and into the back of the wheel. You may choose to glue the shaft into its socket on the back of the wheel, but only do this if you are certain the wheel is not excessively protruding out the front.
 8. Secure the motor in place on the back of the outer box, ensuring the shaft is perpendicular to the back of the outer box. You may use tape, glue, or modify the outer box print to include a mount.
 
 **Suggested Path to Functionality**
-1. Attach the hall effect sensors to the back of the outer box in the positions where each magnet slot would align. Ensure the correct hall effect sensor placement based on the code and pins.
+1. Attach the hall effect sensors to the back of the outer box in the positions where each magnet slot would align. Ensure the correct hall effect sensor placement based on the code and pins. Below is the approximate suggested location for positioning. <img src="./rep image 21.jpeg">
 2. Add a door, latch, and hinge to the front of the box so that it can be opened for refill and closed to prevent medicine from falling out when upright and functional.
 3. Add a door, latch, and hinge to the back of the box so that it can be opened for maintenance and closed during usage.
 4. Modify code to release medication at the desired times of day.
